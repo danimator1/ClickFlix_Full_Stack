@@ -4,12 +4,19 @@
   "description": "\"Introducing **'ClickFlix'** - your gateway to unlimited free movie entertainment! With ClickFlix, you can browse through a curated selection of top-quality movies available for free on YouTube. Simply open the app, pick your preferred genre or a specific title, and start enjoying your favorite movies without any subscription fees. Whether you're into classic films, indie gems, or the latest blockbusters, ClickFlix has something for everyone.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+  "dev":"nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
   }
 }
