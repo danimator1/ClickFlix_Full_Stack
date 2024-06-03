@@ -111,7 +111,7 @@ await resetCollections()
     genre: 'Documentary',
     releaseDate: '2023-07-03',
     duration: 86,
-    image: '../images/TalesOfTheMenInBlack.jpg',
+    image: '../images/TalesOfTheMenInBlack.jpeg',
     link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/B01CNlpKjMQ?si=ZfdtB1rZb5rFIsMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie9.save()
