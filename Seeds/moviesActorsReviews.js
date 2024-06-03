@@ -18,79 +18,79 @@ const resetCollections = async () => {
 const main = async () => {
 await resetCollections()
   const movie1 = await new Movie({
-    title: 'Evolution',
-    description: 'Evolution is a sci-fi comedy about a group of scientists who must save the world from an alien organism that evolves at an astonishing rate.',
+    title: 'Bad President',
+    description: 'Bad President is a satirical comedy film depicting the chaotic and absurd events that unfold when an inept man becomes President of the United States.',
     genre: 'Comedy',
-    releaseDate: '2001-08-06',
-    duration: 96,
-    image: '../images/Evolution.jpg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mAVs05GzChs?si=C2fR5-KExcWHUKo6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '2020-30-10',
+    duration: 86,
+    image: '../images/BadPresident.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0g_6-qMkq-k?si=3kOXFx2WxjiGjWey" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie1.save()
 
   const movie2 = await new Movie({
-    title: 'Red',
-    description: 'RED is an action-comedy about a retired black-ops agent who reunites his old team to uncover a deadly conspiracy after being targeted by assassins.',
+    title: 'Fallen',
+    description: 'Fallen is a crime thriller where a detective tracks down a serial killer who is able to transfer his spirit to new hosts, creating a chilling cat-and-mouse game of good versus evil.',
     genre: 'Action & adventure',
-    releaseDate: '2010-15-10',
-    duration: 111,
-    image: '../images/RED.jpg',
-    link: '<<iframe width="560" height="315" src="https://www.youtube.com/embed/sDarp2tvdQo?si=W9BMWWoBTibJZ1op" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '1998-16-01',
+    duration: 124,
+    image: '../images/Fallen.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J86cfW4RMCA?si=39nFQYE3yyDoxRpJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie2.save()
 
   const movie3 = await new Movie({
-    title: 'The Purge',
-    description: 'The Purge is a dystopian horror-thriller where, in a future America, all crime is legal for one night a year, leading to a night of survival for a family held captive in their home.',
+    title: 'The Ravine',
+    description: 'The Ravine is a drama film centered around a tragic event that unravels the lives of multiple families living in a suburban neighborhood.',
     genre: 'Thriller',
-    releaseDate: '2013-07-06',
-    duration: 85,
-    image: '../images/ThePurge.jpg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hY1dfvBN95E?si=fxP__PCn4BhZkGnS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '2021-07-06',
+    duration: 112,
+    image: '../images/TheRavine.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Lv9T8ZmVLCY?si=XfFTq9GvTli7L39A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie3.save()
 
   const movie4 = await new Movie({
-    title: 'In Time',
-    description: 'In Time is a sci-fi thriller set in a future where time is the currency, and a young man fights against the system to bring equality to society.',
+    title: 'Alpha Code',
+    description: 'The Alpha Code is a sci-fi thriller following a cryptographer as he delves into a mysterious code that unlocks a dangerous secret threatening humanitys future.',
     genre: 'Science fiction',
-    releaseDate: '2011-28-10',
+    releaseDate: '2023-16-07',
     duration: 109,
-    image: '../images/InTime.jpg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-18tkr36TbY?si=tsc2Ta5DQN-mprhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    image: '../images/AlphaCode.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9nvZzuQep6A?si=hRHp43ZzQvDII9N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie4.save()
 
   const movie5 = await new Movie({
-    title: 'Rio',
-    description: 'Rio is a colorful animated adventure about a domesticated macaw named Blu who travels to Rio de Janeiro, where he finds friendship, love, and learns to embrace his wild side.',
+    title: 'The Stolen Princess',
+    description: 'The Stolen Princess is an animated fantasy adventure where a brave young hero sets out on a quest to rescue a princess kidnapped by an evil sorcerer.',
     genre: 'Animation',
-    releaseDate: '2011-15-06',
-    duration: 96,
-    image: '../images/Rio.jpg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hVUxbbKFCDw?si=aRkSIgvLc-S2zvs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '2018-07-03',
+    duration: 85,
+    image: '../images/TheStolenPrincess.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zomYZpaHoNw?si=Q5aPb85t_BNM1QLV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie5.save()
 
   const movie6 = await new Movie({
-    title: 'Enemy At The Gates',
-    description: 'Enemy at the Gates is a war drama set during the Battle of Stalingrad, focusing on the intense sniper duel between a Russian and a German marksman.',
+    title: 'Devil in a Blue Dress',
+    description: 'Devil in a Blue Dress is a neo-noir mystery film where a reluctant detective navigates the treacherous world of 1940s Los Angeles to solve a high-stakes case involving a missing woman.',
     genre: 'Drama',
-    releaseDate: '2001-16-03',
-    duration: 131,
-    image: '../images/enemyatthegates.jpeg',
-    link: '<<iframe width="560" height="315" src="https://www.youtube.com/embed/tAW9PbzEVpI?si=dCZS9X4qSN7WjrVZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '1995-29-09',
+    duration: 102,
+    image: '../images/DevilInBlueDress.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Xi90v8cVBsU?si=tIBVVfqeey7fFHwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie6.save()
 
   const movie7 = await new Movie({
-    title: 'Jeepers Creepers',
-    description: 'Jeepers Creepers is a horror film about two siblings who encounter a terrifying creature while driving home for spring break.',
+    title: 'Day of the Dead',
+    description: 'Day of the Dead is a horror film where a group of survivors must fend off hordes of flesh-eating zombies while seeking refuge in an underground bunker.',
     genre: 'Horror',
-    releaseDate: '2001-31-08',
-    duration: 90,
-    image: '../images/JeepersCreepers.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Sz2fFa2RKRo?si=BQEcNmYmVX_VTJQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '1985-08-04',
+    duration: 102,
+    image: '../images/DayOfTheDead.jpeg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ArEnBmZgpxo?si=wQBj2dDH1ScBAdD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie7.save()
 
@@ -106,13 +106,13 @@ await resetCollections()
   await movie8.save()
 
   const movie9 = await new Movie({
-    title: 'Super Size Me',
-    description: 'Super Size Me is a documentary film where filmmaker Morgan Spurlock explores the effects of consuming fast food by exclusively eating McDonalds meals for 30 days.',
+    title: 'Tales of the Men In Black',
+    description: 'Tales of the Men In Black: The Documentary is a speculative exploration into the real-life origins and alleged activities of the enigmatic government agency, blending fact with fiction.',
     genre: 'Documentary',
-    releaseDate: '2004-07-05',
-    duration: 100,
-    image: '../images/SuperSizeMe.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zKQGAv8gtBA?si=FoOKMeGYaa8aBQ4j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    releaseDate: '2023-07-03',
+    duration: 86,
+    image: '../images/TalesOfTheMenInBlack.jpg',
+    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/B01CNlpKjMQ?si=ZfdtB1rZb5rFIsMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   })
   await movie9.save()
 
@@ -123,45 +123,45 @@ await resetCollections()
 
   const actors = [
     {
-      name: 'David Duchovny',
-      bio: 'David Duchovny is an American actor, known for his roles as Fox Mulder in "The X-Files" and Hank Moody in "Californication," also pursuing writing and music.',
-      dob: '1960-08-07',
+      name: 'Eddie Griffin',
+      bio: 'Eddie Griffin is a versatile comedian and actor known for his sharp wit and energetic performances, spanning stand-up comedy, television, and film.',
+      dob: '1968-15-07',
       movie: movie1._id
     },
     {
-      name: 'Bruce Willis',
-      bio: 'Bruce Willis is an American actor known for his roles in action films such as Die Hard, as well as his versatile performances across various genres.',
-      dob: '1955-03-19',
-      movie: movie2._id
+      name: 'Denzel Washington',
+      bio: 'Denzel Washington is an iconic actor and filmmaker renowned for his powerful performances, compelling characters, and dedication to excellence in the world of cinema.',
+      dob: '1954-28-12',
+      movie: movie2._id,
     },
     {
-      name: 'Ethan Hawke',
-      bio: 'Ethan Hawke is an American actor acclaimed for his roles in a wide range of films, from the coming-of-age classic "Dead Poets Society" to intense crime dramas like "Training Day.',
-      dob: '1970-08-06',
+      name: 'Eric Dane',
+      bio: 'Eric Dane is an American actor known for his roles in television series such as Greys Anatomy and The Last Ship, as well as appearances in films like Marley & Me and X-Men: The Last Stand.',
+      dob: '1972-11-09',
       movie: movie3._id
     },
     {
-      name: 'Justin Timberlake',
-      bio: 'Justin Timberlake is an American singer-songwriter, actor, and producer, known for his successful music career with *NSYNC and as a solo artist, as well as his acting roles in films such as "The Social Network" and "In Time',
-      dob: '1981-01-31',
+      name: 'Denise Richards',
+      bio: 'Denise Richards is an American actress known for her roles in films like "Wild Things" and "The World Is Not Enough," as well as her appearances on reality TV shows.',
+      dob: '1971-17-04',
       movie: movie4._id
     },
     {
-      name: 'Jesse Eisenberg',
-      bio: 'Jesse Eisenberg is an American actor known for his roles in films such as "The Social Network," "Zombieland," and "Rio," as well as his talent for portraying complex and intellectually-driven characters.',
-      dob: '1983-08-05',
+      name: ' Alyson Leigh Rosenfeld',
+      bio: 'Alyson Leigh Rosenfeld is an American voice actress known for her roles in various animated series and films, including providing the voice of Mila in The Stolen Princess.',
+      dob: '1987-21-03',
       movie: movie5._id
     },
     {
-      name: 'Jude Law',
-      bio: 'Jude Law is a British actor known for his versatile performances in films such as "The Talented Mr. Ripley," "Cold Mountain," and "Enemy at the Gates," as well as his stage work and philanthropic endeavors.',
-      dob: '1982-12-29',
+      name: 'Don Cheadle',
+      bio: 'Don Cheadle is an American actor known for his versatile performances in film and television, acclaimed for roles ranging from Hotel Rwanda to Oceans Eleven, and notably portraying Mouse in Devil in a Blue Dress.',
+      dob: '1964-29-12',
       movie: movie6._id
     },
     {
-        name: 'Justin Long',
-        bio: 'Justin Long is an American actor known for his versatile roles in films such as "Dodgeball," "Accepted," and "Jeepers Creepers," as well as his distinctive voice work in animated movies and commercials.',
-        dob: '1982-12-29',
+        name: 'Lori Cardille',
+        bio: 'Lori Cardille is an American actress best known for her role as Sarah Bowman in George A. Romeros 1985 horror film Day of the Dead',
+        dob: '1954-15-07',
         movie: movie7._id
       },
     {
@@ -171,9 +171,9 @@ await resetCollections()
       movie: movie8._id
     },
     {
-        name: 'Morgan Spurlock',
-        bio: 'Morgan Spurlock is an American documentary filmmaker, producer, and television presenter best known for his film Super Size Me, which explores the impact of fast food on health.',
-        dob: '1970-11-07',
+        name: 'John M. Keel',
+        bio: 'John A. Keel was an American journalist and influential ufologist best known for his book "The Mothman Prophecies," which explores paranormal phenomena and cryptids.',
+        dob: '1930-25-03',
         movie: movie9._id
       }
 
@@ -184,48 +184,48 @@ await resetCollections()
 
       const reviews = [
         {
-          rating: 'PG-13',
-          movieReview: 'Evolution is a fun and entertaining sci-fi comedy that delivers laughs with its quirky characters and outlandish alien encounters.',
+          rating: 'NR',
+          movieReview: 'Bad President A cringe-worthy attempt at satire that misses the mark with its predictable humor and lackluster performances.',
           movie: movie1._id
         },
         {
-          rating: 'PG-13',
-          movieReview: 'RED is a highly entertaining action-comedy that combines thrilling sequences with a stellar ensemble cast delivering sharp, humorous performances.',
+          rating: 'R',
+          movieReview: 'Fallen A gripping supernatural thriller that keeps you guessing until the very end, with stellar performances and a haunting atmosphere.',
           movie: movie2._id
         },
         {
           rating: 'R',
-          movieReview: 'The Purge is a tense and provocative thriller that explores the dark side of human nature with a chillingly unique premise.',
+          movieReview: 'The Ravine A powerful and emotionally charged drama that skillfully explores themes of redemption and forgiveness amidst tragedy.',
           movie: movie3._id
         },
         {
           rating: 'PG-13',
-          movieReview: 'In Time offers a stylish and intriguing sci-fi premise, though its execution and social commentary are somewhat underdeveloped.',
+          movieReview: 'Alpha Code A compelling blend of science fiction and drama, though somewhat uneven in pacing, offers an intriguing exploration of family dynamics and the mysteries of the universe.',
           movie: movie4._id
         },
         {
-          rating: 'G',
-          movieReview: 'Rio is a vibrant and visually stunning animated film that delights with its charming characters and infectious musical numbers.',
+          rating: 'PG',
+          movieReview: 'The Stolen Princess A whimsical and enchanting animated adventure that delights both children and adults with its charming characters and magical storytelling.',
           movie: movie5._id
         },
         {
           rating: 'R',
-          movieReview: 'Enemy at the Gates is a gripping war drama that captivates with its intense sniper duels and strong performances amidst the backdrop of the Battle of Stalingrad.',
+          movieReview: 'Devil in a Blue Dress A stylish and atmospheric neo-noir with a standout performance by Denzel Washington, delivering a gripping tale of intrigue and racial tension in 1940s Los Angeles.',
           movie: movie6._id
         },
         {
           rating: 'R',
-          movieReview: 'Justin Long is an American actor known for his versatile roles in films such as "Dodgeball," "Accepted," and "Jeepers Creepers," as well as his distinctive voice work in animated movies and commercials.',
+          movieReview: 'Day of the Dead A lackluster remake that fails to capture the essence of Romeros classic, relying too heavily on gore and lacking the depth of its predecessor.',
           movie: movie7._id
         },
         {
-          rating: 'TV-PG',
+          rating: 'PG',
           movieReview: 'A modern retelling of the classic fairy tale, Three Wishes for Cinderella A Romance at Snowtime follows the enchanting journey of Cinderella as she navigates love and destiny with a magical twist.',
           movie: movie8._id
          },
          {
-           rating: 'TV-PG',
-           movieReview: 'Super Size Me is a groundbreaking documentary where filmmaker Morgan Spurlock explores the impact of fast food on health by exclusively eating McDonalds meals for 30 days.',
+           rating: 'PG',
+           movieReview: 'Tales of the Men in Black documentary A fascinating behind-the-scenes exploration of the real-life inspirations and cultural impact behind the iconic Men in Black phenomenon, offering intriguing insights into conspiracy theories and government secrecy.',
            movie: movie9._id
          }
   ]
