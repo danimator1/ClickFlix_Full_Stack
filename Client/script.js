@@ -25,6 +25,10 @@ const displayMovies = (movies) => {
         const image = document.createElement('img');
         image.src = movie.image;
         image.alt = movie.title;
+        image.addEventListener('click', () => {
+            // console.log(movie.link);
+            window.location.href = movie.link;
+          });
 
         // const link = document.createElement('div');
         // link.innerHTML = movie.link;

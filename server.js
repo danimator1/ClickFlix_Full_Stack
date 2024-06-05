@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const PORT = process.env.PORT || 3001
-const db = require('./db')
+const db = require('./DB')
 const { Movie,Actor,Review } = require('./Models')
 
 const app = express()
