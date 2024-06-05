@@ -24,7 +24,7 @@ await resetCollections()
     releaseDate: '2020-30-10',
     duration: 86,
     image: '../images/BadPresident.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0g_6-qMkq-k?si=3kOXFx2WxjiGjWey" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/0g_6-qMkq-k?si=3kOXFx2WxjiGjWey'
   })
   await movie1.save()
 
@@ -35,7 +35,7 @@ await resetCollections()
     releaseDate: '1998-16-01',
     duration: 124,
     image: '../images/Fallen.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J86cfW4RMCA?si=39nFQYE3yyDoxRpJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/J86cfW4RMCA?si=39nFQYE3yyDoxRpJ'
   })
   await movie2.save()
 
@@ -46,7 +46,7 @@ await resetCollections()
     releaseDate: '2021-07-06',
     duration: 112,
     image: '../images/TheRavine.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Lv9T8ZmVLCY?si=XfFTq9GvTli7L39A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/Lv9T8ZmVLCY?si=XfFTq9GvTli7L39A'
   })
   await movie3.save()
 
@@ -57,7 +57,7 @@ await resetCollections()
     releaseDate: '2023-16-07',
     duration: 109,
     image: '../images/AlphaCode.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9nvZzuQep6A?si=hRHp43ZzQvDII9N7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/9nvZzuQep6A?si=hRHp43ZzQvDII9N7'
   })
   await movie4.save()
 
@@ -68,7 +68,7 @@ await resetCollections()
     releaseDate: '2018-07-03',
     duration: 85,
     image: '../images/TheStolenPrincess.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zomYZpaHoNw?si=Q5aPb85t_BNM1QLV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/zomYZpaHoNw?si=Q5aPb85t_BNM1QLV'
   })
   await movie5.save()
 
@@ -79,7 +79,7 @@ await resetCollections()
     releaseDate: '1995-29-09',
     duration: 102,
     image: '../images/DevilInBlueDress.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Xi90v8cVBsU?si=tIBVVfqeey7fFHwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/Xi90v8cVBsU?si=tIBVVfqeey7fFHwE'
   })
   await movie6.save()
 
@@ -90,7 +90,7 @@ await resetCollections()
     releaseDate: '1985-08-04',
     duration: 102,
     image: '../images/DayOfTheDead.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ArEnBmZgpxo?si=wQBj2dDH1ScBAdD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/ArEnBmZgpxo?si=wQBj2dDH1ScBAdD0'
   })
   await movie7.save()
 
@@ -101,7 +101,7 @@ await resetCollections()
     releaseDate: '2022-01',
     duration: 111,
     image: '../images/threewishesforcinderella.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/AU0w2Uq9tNU?si=boIh-1Ie0-7ioFb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/AU0w2Uq9tNU?si=boIh-1Ie0-7ioFb8'
   })
   await movie8.save()
 
@@ -112,7 +112,7 @@ await resetCollections()
     releaseDate: '2023-07-03',
     duration: 86,
     image: '../images/TalesOfTheMenInBlack.jpeg',
-    link: '<iframe width="560" height="315" src="https://www.youtube.com/embed/B01CNlpKjMQ?si=ZfdtB1rZb5rFIsMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    link: 'https://www.youtube.com/embed/B01CNlpKjMQ?si=ZfdtB1rZb5rFIsMJ'
   })
   await movie9.save()
 

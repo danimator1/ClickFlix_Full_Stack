@@ -10,6 +10,7 @@ const getMovie = () => {
         });
 };
 
+
 const displayMovies = (movies) => {
     moviesContainer.innerHTML = ''; // Clear the container first
     movies.forEach(movie => {
@@ -44,3 +45,34 @@ const displayMovies = (movies) => {
 
 // Call getMovie function immediately when the script is loaded
 getMovie();
+
+
+const getReview = () => {
+    axios.get('http://localhost:3001/reviews')
+        .then(response => {
+            displayReviwes(response.data);
+        })
+        .catch(error => {
+            console.error('There was an error fetching the reviews!', error);
+        });
+};
+
+
+
+
+const displayReviews = (reviews) => {
+    moviesContainer.innerHTML = ''; // Clear the container first
+    reviews.forEach(review => {
+        const reviewElement = document.createElement('div');
+        reviewElement.classList.add('review');
+
+        const rating = document.createElement('p');
+        rating.textContent = `Rating: ${review.ratings}`;
+
+        reviewElement.appendChild(rating);
+
+        moviesContainer.appendChild(reviewElement);
+    });
+};
+
+getReview();
