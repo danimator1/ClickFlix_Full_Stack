@@ -1,5 +1,4 @@
 const moviesContainer = document.getElementById('movies-container');
-const actorsContainer = document.getElementById('actors-container');
 
 const getMovie = () => {
     axios.get('http://localhost:3001/movies')
@@ -41,17 +40,6 @@ const displayMovies = (movies) => {
 
         moviesContainer.appendChild(movieElement);
     });
-};
-
-// Fetch all actors
-const getAllActors = () => {
-    axios.get('http://localhost:3001/actors')
-        .then(response => {
-            displayActors(response.data);
-        })
-        .catch(error => {
-            console.error('There was an error fetching the actors!', error);
-        });
 };
 
 // Display all actors
