@@ -8,7 +8,8 @@ const movieSchema = new Schema(
     releaseDate: { type: String, required: true },
     duration: { type: Number, required: true },
     image: { type: String, required: true },
-    link: { type: String, required: true }
+    link: { type: String, required: true },
+    review: { type: Schema.Types.ObjectId, ref: 'Review' }
 
   },
   { timestamps: true }

@@ -10,6 +10,7 @@ const getMovie = () => {
         });
 };
 
+
 const displayMovies = (movies) => {
     moviesContainer.innerHTML = ''; // Clear the container first
     movies.forEach(movie => {
@@ -19,24 +20,33 @@ const displayMovies = (movies) => {
         const title = document.createElement('h2');
         title.textContent = movie.title;
 
+        const review = document.createElement('h2');
+        review.textContent = movie.review;
+
         const genre = document.createElement('p');
         genre.textContent = `Genre: ${movie.genre}`;
 
         const image = document.createElement('img');
         image.src = movie.image;
         image.alt = movie.title;
-
-        // const link = document.createElement('div');
-        // link.innerHTML = movie.link;
+        image.addEventListener('click', () => {
+            // console.log(movie.link);
+            window.location.href = movie.link;
+          });
 
         movieElement.appendChild(title);
         movieElement.appendChild(genre);
         movieElement.appendChild(image);
-        // movieElement.appendChild(link);
 
         moviesContainer.appendChild(movieElement);
     });
 };
 
+// Display all actors
+
+
+
 // Call getMovie function immediately when the script is loaded
 getMovie();
+
+

@@ -7,6 +7,9 @@ body {
 }
 
 h1 {
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 200px;
     text-align: center;
     margin-top: 20px;
 }
@@ -15,6 +18,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -30,9 +34,12 @@ h1 {
 .movie img {
     width: 100%;
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 .movie h2 {
+    /* text-decoration: underline; */
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -52,3 +59,4 @@ h1 {
 .movie a:hover {
     text-decoration: underline;
 }
+
