@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Client/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>ClickFlix</title>
+</head>
+<body>
+
+    <h1>Actors</h1>
+    <section id="control-center">
+        
+    </section>
+    <section id="actors-container"></section>
+
+    <form id="actor-form">
+        <h2 id="form-title">Add Actor</h2>
+        <input type="hidden" id="actor-id" />
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <label for="bio">Bio:</label>
+        <input type="text" id="bio" required />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required />
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" required />
+        <button type="submit">Submit</button>
+        <button type="button" id="cancel-button" style="display: none;">Cancel</button>
+    </form>
+
+    <button class="button" id="home-button">
+        <a href="index.html" id="home-link">Home</a>
+    </button>
+
+    
+</body>
+</html>
