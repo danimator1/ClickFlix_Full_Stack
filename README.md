@@ -28,6 +28,14 @@
 
 - Github
 
+- ChatGPT
+
+- codeium
+
+- google/google fonts
+
+- image preview
+
 ![ERD](ClickFlixERD.jpg)
 
 
