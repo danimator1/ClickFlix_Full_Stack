@@ -36,6 +36,8 @@
 
 - image preview
 
+- Trello
+
 ![ERD](ClickFlixERD.jpg)
 
 
