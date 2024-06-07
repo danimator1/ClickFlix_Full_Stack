@@ -160,7 +160,7 @@ const resetCollections = async () => {
         dob: '1972-11-09',
       },
       {
-        image: '../images/actors/EricDane.jpg',
+        image: '../images/actors/DeniseRichards.jpg',
         name: 'Denise Richards',
         bio: 'Denise Richards is an American actress known for her roles in films like "Wild Things" and "The World Is Not Enough," as well as her appearances on reality TV shows.',
         dob: '1971-17-04',
